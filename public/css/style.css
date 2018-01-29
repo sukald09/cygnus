@@ -1,0 +1,102 @@
+.cygnusHeader{
+    background-color: #959595;
+    color: #ffffff;
+/*    left: 10px;*/
+    padding: 0.5px;
+}
+
+.header2{
+    padding-left: 0.5cm;
+}
+
+.pageHeader{
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+.button-panel
+{
+    position: relative;
+    float:left;
+}
+.button-one {
+    background: #ddc898;
+    color: #1d1d1d;
+}
+
+.button-two {
+    background: #f1c2b7;
+    color: #1d1d1d;
+}
+.button-three {
+    background: #70b5ae;
+    color: #1d1d1d;
+}
+.button-four{
+    background: #9e90b5;
+    color: #1d1d1d;
+}
+.button-one,
+.button-two,
+.button-three,
+.button-four{
+    display: inline-block;
+    border-radius: 0;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    width:200px
+}
+
+.button-one:hover,
+.button-two:hover,
+.button-three:hover,
+.button-four:hover
+{
+    background: #fff;
+}
+
+.section {
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 3%;
+    margin-left: 300px;
+    width: 50%;
+}
+table {
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+}
+table thead {
+    background-color: #bfd6c9;
+    font-family: 	Verdana;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+table thead tr {
+    cursor: default;
+}
+table thead tr:hover {
+    background-color: #a9cfd6;
+}
+table tr {
+    cursor: pointer;
+}
+table tr:hover {
+    background-color: #d4d4d4;
+}
+table td {
+    font-family: 	Verdana;
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+
+}
+
